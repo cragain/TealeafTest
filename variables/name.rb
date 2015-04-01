@@ -1,9 +1,17 @@
-puts "Whats Your Name"
+puts "Whats Your First Name"
 
-name = gets.chomp
+firstname = gets.chomp
 
-puts "Hello " + name
+puts "Whats Your Last Name"
+
+lastname = gets.chomp
+
+puts "Hello " + firstname + " " + lastname
+
+name = "chris"
 
  10.times do 
      puts name
  end
+ 
+ 
