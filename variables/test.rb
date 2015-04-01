@@ -1,7 +1,6 @@
-name = 5        # variable is initialized in the outer scope
-
-3.times do |n|
- puts name      # is a accessible here, in an inner scope?
+y = 0
+3.times do
+  y+= 1
+  x = y
 end
-
-puts a
+puts x
